@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_cage_door_close",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.057483,
+  "name":"snd_cage_door_close",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_cage_door_close.wav",
+  "type":0,
+  "volume":1.0,
+}
