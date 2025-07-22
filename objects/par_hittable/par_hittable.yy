@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cage",
+  "%Name":"par_hittable",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cage",
+  "name":"par_hittable",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"par_hittable",
-    "path":"objects/par_hittable/par_hittable.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,19 +25,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"trigger_id","filters":[],"listItems":[],"multiselect":false,"name":"trigger_id","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_cage_open",
-    "path":"sprites/spr_cage_open/spr_cage_open.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_cage_mask_closed",
-    "path":"sprites/spr_cage_mask_closed/spr_cage_mask_closed.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }
