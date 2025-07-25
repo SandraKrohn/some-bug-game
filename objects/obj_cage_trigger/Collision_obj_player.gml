@@ -1,6 +1,6 @@
 // working code that lets the bubble disappear after a few seconds
-with (obj_cage) {
-	if (trigger_id == other.trigger_id && !has_closed) {
+with (owner) {
+	if (!has_closed) {
 		sprite_index = spr_cage_closed
 		if instance_exists(collider) {
 			collider.mask_index = spr_cage_mask_closed

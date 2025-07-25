@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cage_trigger",
+  "%Name":"obj_cage_break",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cage_trigger",
+  "name":"obj_cage_break",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trigger_cage",
-    "path":"sprites/spr_trigger_cage/spr_trigger_cage.yy",
+    "name":"spr_cage_break",
+    "path":"sprites/spr_cage_break/spr_cage_break.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
